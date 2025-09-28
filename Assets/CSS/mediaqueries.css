@@ -1,0 +1,11 @@
+@media screen and (max-width:1200px){
+    .NavBar-PC{
+        display: none;
+    }
+}
+
+@media screen and (min-width:1201px){
+    .NavBar-Mobile{
+        display: none;
+    }
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Assets/CSS/styles.css">
+    <link rel="stylesheet" href="Assets/CSS/mediaqueries.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <div class="NavBar-PC">
+        <div class="logo-PC">Sudarsan N</div>
+        <div class="Navlinks-PC">
+            <a href="#home" id="activeWindow">Home</a>
+            <a href="#skills">Skills</a>
+            <a href="#education">Education</a>
+            <a href="#experience">Experience</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </div>
+    <div class="NavBar-Mobile">
+        <div class="logo-Mobile">Sudarsan N</div>
+        <div class="NavContainer">
+            <div class="ham" onclick="toggleMenu()">
+                <span> </span>
+                <span> </span>
+                <span> </span>
+            </div>
+            <div class="Navlinks-Mobile">
+                <a href="#home" onclick="toggleMenu()">Home</a>
+                <a href="#skills" onclick="toggleMenu()">Skills</a>
+                <a href="#education" onclick="toggleMenu()"> Education</a>
+                <a href="#experience" onclick="toggleMenu()">Experience</a>
+                <a href="#contact" onclick="toggleMenu()">Contact</a>
+            </div>
+        </div>
+        
+    </div>
+    <div class="homecontainer">
+        <div class="profileimg">
+            <img class="photo" src="Assets/Images/Profilepic.JPG" alt="Profile Picture">
+        </div>
+        <div class="description">
+            <h3>
+                Sudarsan Nallathambi 
+            </h3>
+            <h6>
+                I like working with computers.
+            </h6>
+            <p>
+                Scroll for more about me.
+            </p>
+        </div>
+    </div>
+    <div class="extras">
+        extras
+    </div>
+
+    <script src="Assets/JS/script.js"></script>
+</body>
+</html>
