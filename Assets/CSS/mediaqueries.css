@@ -2,6 +2,12 @@
     .NavBar-PC{
         display: none;
     }
+
+    .description h2{
+        font-size: 30px;
+        font-weight: 600;
+    }
+
 }
 
 @media screen and (min-width:1201px){
