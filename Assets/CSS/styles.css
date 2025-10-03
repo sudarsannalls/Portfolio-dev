@@ -211,3 +211,7 @@ body{
     color: white;
 }
 
+.socials a img{
+    margin: 20px 5px;
+    height: 30px;
+}
