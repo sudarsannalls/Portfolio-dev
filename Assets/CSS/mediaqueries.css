@@ -8,10 +8,20 @@
         font-weight: 600;
     }
 
+    .homecontainer{
+        flex-direction: column;
+    }
+
+    .photo{
+        height: 15rem;
+    }
+
 }
 
 @media screen and (min-width:1201px){
     .NavBar-Mobile{
         display: none;
     }
+
+
 }
