@@ -12,7 +12,7 @@
         <div class="logo-PC">Sudarsan N</div>
         <div class="Navlinks-PC">
             <a href="#home" id="activeWindow">Home</a>
-            <a href="#education">Education</a>
+            <a href="#about">About</a>
             <a href="#skills">Skills</a>
             <a href="#experience">Experience</a>
             <a href="#contact">Contact</a>
@@ -28,7 +28,7 @@
             </div>
             <div class="Navlinks-Mobile">
                 <a href="#home" onclick="toggleMenu()">Home</a>
-                <a href="#education" onclick="toggleMenu()"> Education</a>
+                <a href="#about" onclick="toggleMenu()"> About</a>
                 <a href="#skills" onclick="toggleMenu()">Skills</a>
                 <a href="#experience" onclick="toggleMenu()">Experience</a>
                 <a href="#contact" onclick="toggleMenu()">Contact</a>
@@ -58,10 +58,10 @@
             </div>
         </div>
     </div>
-    <div class="about">
-        <div class="abouttitle">
-            <h5>Get to know me</h5>
-            <h2>Education</h2>
+    <div class="about" id="about">
+        <div class="sectiontitle">
+            <h5>Get to know more</h5>
+            <h2>About Me</h2>
         </div>
         <div class="aboutcontainer">
             <div class="profileimg">
@@ -70,6 +70,7 @@
             <div class="aboutcontent">
                 <div class="aboutmebox">
                     <div class="aboutexperience">
+                        <img src="Assets/Images/Socials/reputation.png" alt="experience">
                         <h4>Experience</h4>
                         <p>
                             2+ years
@@ -79,6 +80,7 @@
                         </p>
                     </div>
                     <div class="abouteducation">
+                        <img src="Assets/Images/Socials/people.png" alt="education">
                         <h4>Education</h4>
                         <p>
                             Bachelor of Engineering (B.E.)
@@ -93,8 +95,22 @@
                 </div>
             </div>
         </div>
+        <img src="Assets/Images/Socials/arrow.png" alt="" class="nextsection" onclick="location.href='./#experience'">
     </div>
-    
+    <div class="experience" id="experience">
+        <div class="sectiontitle">
+            <h5>Explore My</h5>
+            <h2>Experience</h2>
+        </div>
+        <div class="experiencecontent">
+            <div class="sm">
+                
+            </div>
+            <div class="dev">
+
+            </div>
+        </div>
+    </div>
 
     <script src="Assets/JS/script.js"></script>
 </body>

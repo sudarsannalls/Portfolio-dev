@@ -16,14 +16,18 @@
         height: 15rem;
     }
 
-    .aboutcontainer{
-        flex-direction: column;
+    .about{
+        height: auto;
     }
 
     .aboutcontainer{
+        flex-direction: column;
         width: 95vw;
     }
     
+    .nextsection{
+        display: none;
+    }
 }
 
 @media screen and (min-width:1201px){
