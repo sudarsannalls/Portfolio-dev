@@ -132,8 +132,6 @@ body{
 
 /* Home Container */
 .homecontainer{
-    /* position: relative; */
-    /* background-color: #015551; */
     height: 100vh;
     width: 100vw;
     display: flex;
@@ -146,28 +144,21 @@ body{
 }
 
 .profileimg{
-    /* background-color: #015551; */
-    /* width: 100vw;
-    height: 20rem; */
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 10px 10px 0px 0px;
     padding: 1rem;
-    /* border: 2px solid red; */ 
 }
 
 .photo{
     border-radius: 50%;
-    /* border: 9px solid red; */
-    /* box-shadow: 2px 2px 10px; */
     height: 25rem;
 
 }
 
 .description{
     justify-items: center;
-    /* width: 60vw; */
     padding: 1rem;
     border-radius: 20px;
     
@@ -303,4 +294,64 @@ body{
 .aboutme{
     margin-top: 20px;
     margin-bottom: 50px;
+}
+
+
+/* Experience */
+.experience{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sm{
+    border-radius: 20px;
+    padding: 20px;
+    border: 1px solid silver;
+    width: 90%;
+}
+
+.experiencecontent{
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 90%;
+    text-align: center;
+    /* flex-grow: 1; */
+}
+
+.sm h4{
+    font-size: 20px;
+    font-weight: 600;
+    color: #475757;
+}
+
+.smlist{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.smlist .skills{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.smlist img{
+    height: 30px;
+    padding: 0 10px;
+}
+
+.smlist p{
+    font-weight: 600;
+}
+
+.smlist .level{
+    font-weight: 400;
+    color: #475757;
 }

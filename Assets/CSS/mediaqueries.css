@@ -1,3 +1,17 @@
+@media screen and (max-width:600px){
+    .experiencecontent{
+        flex-direction: column;
+        text-align: left;
+        gap: 20px;
+        width: 90%;
+    }
+
+    .experiencecontent h4{
+        text-align: center;
+    }
+
+}
+
 @media screen and (max-width:1200px){
     .NavBar-PC{
         display: none;
@@ -28,6 +42,18 @@
     .nextsection{
         display: none;
     }
+
+    .experiencecontent h4{
+        text-align: center;
+    }
+    
+    .experiencecontent{
+        flex-direction: column;
+        text-align: left;
+        gap: 20px;
+        width: 90%;
+    }
+
 }
 
 @media screen and (min-width:1201px){
